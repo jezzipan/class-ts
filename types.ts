@@ -53,3 +53,12 @@ cart = {
     key: "fi"
 }
 
+//inferencia de tipos p/ não ser redundante
+
+let message2 = "mensagem definida"
+message2 = "1"
+
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+});
+
